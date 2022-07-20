@@ -1,10 +1,32 @@
-# VRST Boilerplate ⚡
+# A.A.A.R.P (OPEN SOURCE PROJECT) ⚡
+
+Olá 👋
+
+Se você chegou até este repositorio é porque vc esta interesado no codigo dele, logo contruibuir com a A.A.A.R.P!
+
+Este projeto destinado para uma ORG de resgate e adoção de animais carentes, e para contruibuir com ele é bem facil.
+
+Basta criar um Fork direto do repositorio (https://github.com/bolodissenoura/AAARP) e mandar seu Pull Request para avalição.
+
+## Quem Somos ?
+
+![Logo](/public/assets/img/Logo.png)
+
+https://www.instagram.com/amigosdosanimaisribeiraopreto/
+
+
+## Quem ja contribuiu ?
+
+<a href="https://github.com/bolodissenoura/AAARP/graphs/contributors">
+  <img src=""/>
+</a>
+
 
 Vrst stands for [Vite](https://github.com/vitejs/vite), [React](https://github.com/microsoft/TypeScript), [Styed-Components](https://github.com/styled-components/styled-components), [TypeScript](https://github.com/microsoft/TypeScript).
 
 > It's fast & faster than create-react-app! 🏃‍♂️
 
-## Installation
+## instalação
 
 Choose an option:
 
