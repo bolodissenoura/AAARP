@@ -1,9 +1,11 @@
 import React from 'react';
+import * as C from '../../../components';
 
 export function Home() {
   return (
-    <div>
+    <>
+      <C.Header />
       <h1>Home</h1>
-    </div>
+    </>
   );
 }
