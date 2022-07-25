@@ -1,19 +1,18 @@
-import React from 'react';
+import * as React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home } from './pages/general/home';
+
 import { GlobalStyles } from './styles/GlobalStyles';
 
-const App = () => {
+export function App() {
   return (
-    <React.Fragment>
+    <>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </Router>
       <GlobalStyles />
-      <div style={{ textAlign: 'center' }}>
-        <h1>Hello world!</h1>
-        <a className='link' href=''>
-          VRST Boilerplate
-        </a>
-        <p>(Vite.js, React.js, Styled-Components, and Typescript)</p>
-      </div>
-    </React.Fragment>
+    </>
   );
-};
-
-export default App;
+}
