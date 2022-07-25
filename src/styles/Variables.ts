@@ -16,11 +16,15 @@ const Variables = css`
     --fz-xl: 20px;
     --fz-xxl: 22px;
 
-    // Colors
+    // General Colors
     --white: #fff;
     --black: #000;
     --gray: #7f7f7f;
-    --blue: #057dcd;
+
+    // Default Colors
+    --brownDark: #4b1c14;
+    --brownLight: #f5b575;
+    --grayLight: #d9d9d9;
 
     // Other
     --max-width: 1500px;
