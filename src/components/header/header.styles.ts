@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-
+import { deviceMinWidth } from 'src/styles';
 interface HeaderContentProps {
   scroll: boolean;
 }
@@ -7,10 +7,15 @@ interface HeaderContentProps {
 export const HeaderContent = styled.header<HeaderContentProps>`
   background-color: ${props =>
     props.scroll ? 'var(--grayLight)' : 'transparent'};
+  box-shadow: ${props =>
+    props.scroll ? '0 4px 8px 0 rgba(0, 0, 0, 0.2)' : 'none'};
   transition: background-color 0.5s ease;
   position: fixed;
-  height: 80px;
-  width: 100%;
+  top: 0; /* Stick it to the top */
+  max-height: 70px;
+  width: 100vw;
+  display: grid;
+  grid-template-areas: 'logo nav';
 `;
 
 export const LogoContent = styled.div`
