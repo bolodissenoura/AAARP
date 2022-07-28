@@ -5,7 +5,9 @@ interface HeaderContentProps {
 }
 
 export const HeaderContent = styled.header<HeaderContentProps>`
-  background-color: ${props => (props.scroll ? 'var(--white)' : 'transparent')};
+  background-color: ${props =>
+    props.scroll ? 'var(--grayLight)' : 'transparent'};
+  transition: background-color 0.5s ease;
   position: fixed;
   height: 80px;
   width: 100%;
