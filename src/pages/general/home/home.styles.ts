@@ -8,3 +8,7 @@ export const Container = styled.div`
   background-position: top;
   background-repeat: no-repeat;
 `;
+
+export const Divider = styled.div`
+  padding-top: 100px;
+`;
