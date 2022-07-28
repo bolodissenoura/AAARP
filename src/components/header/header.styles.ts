@@ -24,12 +24,12 @@ export const LogoContent = styled.div`
 
 export const Title = styled.h1`
   font-weight: 400;
-  font-size: 38px;
+  font-size: 30px;
   color: white;
 `;
 
 export const Subtitle = styled.p`
   font-weight: 400;
-  font-size: 18px;
+  font-size: 13px;
   color: var(--white);
 `;
