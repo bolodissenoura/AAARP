@@ -22,6 +22,7 @@ export const GlobalStyles = createGlobalStyle`
   html {
     scrollbar-width: thin;
     scrollbar-color: var(--black);
+
   }
 
   body::-webkit-scrollbar {
@@ -35,10 +36,10 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     margin: 0 auto;
+    overflow-x: hidden;
     font-family: var(--font-main);
     background-color: var(--white);
     color: var(--black);
-    max-width: var(--max-width);
   }
 
   ul, li, ol {
