@@ -40,3 +40,21 @@ export const TitleCTA = styled.div`
 export const ContentButton = styled.div`
   text-align: center;
 `;
+
+export const TransitionContent = styled.div`
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: var(--grayLight);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: -60px;
+  width: 80vw;
+  height: 300px;
+`;
+
+export const SecondContainer = styled.div`
+  background-color: var(--grayLight);
+  height: 100vh;
+  width: 100vw;
+`;

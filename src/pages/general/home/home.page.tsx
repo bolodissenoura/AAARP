@@ -17,6 +17,10 @@ export function Home() {
           <C.Button text='Quero Doar' />
         </S.ContentButton>
       </S.Container>
+      <S.SecondContainer>
+        <S.TransitionContent></S.TransitionContent>
+      </S.SecondContainer>
+
       <h1>Home</h1>
     </>
   );
