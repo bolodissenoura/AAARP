@@ -16,20 +16,21 @@ export const HeaderContent = styled.header<HeaderContentProps>`
   width: 100vw;
   display: grid;
   grid-template-areas: 'logo nav';
+  color: ${props => (props.scroll ? 'var(--brownDark)' : 'white')};
+  z-index: 99;
 `;
 
 export const LogoContent = styled.div`
+  text-align: center;
   padding: 10px;
 `;
 
 export const Title = styled.h1`
   font-weight: 400;
   font-size: 30px;
-  color: white;
 `;
 
 export const Subtitle = styled.p`
   font-weight: 400;
   font-size: 13px;
-  color: var(--white);
 `;

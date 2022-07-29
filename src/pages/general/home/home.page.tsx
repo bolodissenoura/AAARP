@@ -6,7 +6,17 @@ export function Home() {
   return (
     <>
       <C.Header />
-      <S.Container></S.Container>
+
+      <S.Container>
+        <S.Divider />
+        <S.TitleCTA>
+          Com apenas R$1,00 você ajuda centenas de peludinhos
+        </S.TitleCTA>
+
+        <S.ContentButton>
+          <C.Button text='Quero Doar' />
+        </S.ContentButton>
+      </S.Container>
       <h1>Home</h1>
     </>
   );
