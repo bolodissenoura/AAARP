@@ -10,8 +10,7 @@ export const TransitionContent = styled.div`
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   margin-top: -60px;
   width: 80vw;
-  height: 250px;
-  overflow-y: scroll;
+  min-height: 250px;
 `;
 
 export const SecondContainer = styled.div`
@@ -59,5 +58,5 @@ export const Col = styled.div`
   }
 
   max-width: 500px;
-  padding: 30px;
+  padding: 10px;
 `;
