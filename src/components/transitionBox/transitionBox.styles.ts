@@ -8,7 +8,7 @@ export const TransitionContent = styled.div`
   transform: translateX(-50%);
   background-color: var(--grayLight);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  margin-top: -60px;
+  margin-top: -100px;
   width: 80vw;
   min-height: 250px;
 `;

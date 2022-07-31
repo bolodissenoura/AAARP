@@ -21,13 +21,11 @@ export const TitleCTA = styled.div`
   color: var(--grayLight);
   font-weight: 600;
   text-align: center;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   font-size: 26px;
   z-index: 1;
 
-  margin-left: 50%;
   margin-top: 50vw;
+  margin-bottom: 100px;
   @media ${deviceMinWidth.tabletM} {
     font-size: 40px;
     margin-top: 20vw;
@@ -41,63 +39,16 @@ export const ContentButton = styled.div`
   text-align: center;
 `;
 
-export const TransitionContent = styled.div`
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  background-color: var(--grayLight);
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  margin-top: -60px;
-  width: 80vw;
-  height: 250px;
-  overflow-y: scroll;
+export const AboutUsContainer = styled.div`
+  padding-top: 200px;
+`;
+
+export const TitleAboutUsContainer = styled.div`
+  padding-top: 200px;
 `;
 
 export const SecondContainer = styled.div`
   background-color: var(--grayLight);
   height: 100vh;
   width: 100vw;
-`;
-
-export const Grid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 10px;
-  @media ${deviceMinWidth.tabletL} {
-    margin: 0 150px;
-  }
-  @media ${deviceMinWidth.desktopS} {
-    margin: 0 150px;
-  }
-`;
-
-export const Col = styled.div`
-  h1 {
-    font-size: 12px;
-    margin-bottom: 10px;
-    @media ${deviceMinWidth.tabletL} {
-      font-size: 20px;
-    }
-    @media ${deviceMinWidth.desktopS} {
-      font-size: 30px;
-    }
-  }
-  h1:before {
-    content: '>> ';
-    color: var(--brownDark);
-    font-size: 16px;
-  }
-  p {
-    font-size: 10px;
-    @media ${deviceMinWidth.tabletL} {
-      font-size: 15px;
-    }
-    @media ${deviceMinWidth.desktopS} {
-      font-size: 20px;
-    }
-  }
-
-  max-width: 500px;
-  padding: 30px;
 `;
