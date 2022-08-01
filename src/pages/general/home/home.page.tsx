@@ -6,19 +6,18 @@ export function Home() {
   return (
     <>
       <C.Header />
-
       <S.Container>
         <S.Divider />
-        <S.TitleCTA>
-          Com apenas R$1,00 você ajuda centenas de peludinhos
-        </S.TitleCTA>
+        <S.ContentCTA>
+          <S.TitleCTA>SOMOS A.A.A.R.P</S.TitleCTA>
+          <S.SubTitleCTA>
+            Amigos dos Animais <br /> de Ribeirão Preto
+          </S.SubTitleCTA>
 
-        <S.ContentButton>
-          <C.Button text='Quero Doar' />
-        </S.ContentButton>
+          <C.Button dark text='QUERO DOAR AGORA' />
+        </S.ContentCTA>
       </S.Container>
       <S.SecondContainer>
-        <C.TransitionBox />
         <S.AboutUsContainer>
           <S.AboutUsFirstContainer>
             <C.Title text='Sobre Nossa Associação' />
@@ -63,6 +62,14 @@ export function Home() {
           <C.Button dark text='Clique aqui e tenha um novo afilhado' />
         </S.ToAdopteContainer>
       </S.ThirdContainer>
+      <S.FourthContainer>
+        <S.Divider />
+        <S.TitleCTA>
+          Com apenas R$1,00 você ajuda centenas de peludinhos
+        </S.TitleCTA>
+
+        <C.Button text='Quero Doar' />
+      </S.FourthContainer>
 
       <h1>Home</h1>
     </>

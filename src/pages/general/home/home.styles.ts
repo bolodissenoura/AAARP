@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import img from '/assets/img/bkg-1.png';
+import img2 from '/assets/img/bkg-2.png';
 import { deviceMinWidth } from '../../../styles';
 
 export const Container = styled.div`
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(${img});
+  background-image: url(${img});
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -14,28 +14,43 @@ export const Container = styled.div`
 `;
 
 export const Divider = styled.div`
-  padding-top: 100px;
+  padding-top: 80px;
 `;
 
 export const TitleCTA = styled.div`
-  color: var(--grayLight);
-  font-weight: 600;
+  color: var(--black);
+  opacity: 0.8;
+  font-family: var(--font-third);
   text-align: center;
-  font-size: 26px;
+  font-size: 60px;
   z-index: 1;
-
-  margin-top: 50vw;
-  margin-bottom: 100px;
-  @media ${deviceMinWidth.tabletM} {
-    font-size: 40px;
-    margin-top: 20vw;
+  text-transform: uppercase;
+  padding-top: 80px;
+  @media ${deviceMinWidth.laptopS} {
+    font-size: 30px;
   }
   @media ${deviceMinWidth.desktopS} {
-    margin-top: 10vw;
+    font-size: 50px;
   }
 `;
 
-export const ContentButton = styled.div`
+export const SubTitleCTA = styled.p`
+  color: var(--black);
+  font-family: var(--font-third);
+  text-align: center;
+  font-size: 20px;
+  z-index: 1;
+  text-transform: uppercase;
+  @media ${deviceMinWidth.laptopS} {
+    font-size: 60px;
+  }
+  @media ${deviceMinWidth.desktopS} {
+    font-size: 100px;
+  }
+`;
+
+export const ContentCTA = styled.div`
+  margin-left: -50%;
   text-align: center;
 `;
 
@@ -121,4 +136,15 @@ export const SecondContainer = styled.div`
 export const ThirdContainer = styled.div`
   background-color: var(--grayMedium);
   width: 100vw;
+`;
+
+export const FourthContainer = styled.div`
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(${img2});
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 `;
