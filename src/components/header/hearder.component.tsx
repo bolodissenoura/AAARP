@@ -17,10 +17,7 @@ export function Header() {
 
   return (
     <S.HeaderContent scroll={navBg}>
-      <S.LogoContent>
-        <S.Title>A.A.A.R.P</S.Title>
-        <S.Subtitle>@amigosdosanimaisribeiraopreto</S.Subtitle>
-      </S.LogoContent>
+      <S.LogoContent></S.LogoContent>
     </S.HeaderContent>
   );
 }

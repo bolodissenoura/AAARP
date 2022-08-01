@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { deviceMinWidth } from '../../styles';
 
 export const Content = styled.button<{ dark?: boolean }>`
   background-color: transparent;
@@ -15,5 +16,8 @@ export const Content = styled.button<{ dark?: boolean }>`
 `;
 
 export const Text = styled.h1`
-  margin: 10px 40px;
+  margin: 10px;
+  @media ${deviceMinWidth.desktopS} {
+    margin: 10px 40px;
+  }
 `;

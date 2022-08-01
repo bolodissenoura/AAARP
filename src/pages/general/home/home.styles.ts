@@ -22,7 +22,7 @@ export const TitleCTA = styled.div`
   opacity: 0.8;
   font-family: var(--font-third);
   text-align: center;
-  font-size: 60px;
+  font-size: 30px;
   z-index: 1;
   text-transform: uppercase;
   padding-top: 80px;
@@ -38,9 +38,10 @@ export const SubTitleCTA = styled.p`
   color: var(--black);
   font-family: var(--font-third);
   text-align: center;
-  font-size: 20px;
+  font-size: 50px;
   z-index: 1;
   text-transform: uppercase;
+  margin-bottom: 50px;
   @media ${deviceMinWidth.laptopS} {
     font-size: 60px;
   }
@@ -50,12 +51,14 @@ export const SubTitleCTA = styled.p`
 `;
 
 export const ContentCTA = styled.div`
-  margin-left: -50%;
   text-align: center;
+  @media ${deviceMinWidth.desktopS} {
+    margin-left: -50%;
+  }
 `;
 
 export const AboutUsContainer = styled.div`
-  padding-top: 200px;
+  padding-top: 100px;
 `;
 
 export const AboutUsFirstContainer = styled.div`
