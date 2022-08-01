@@ -6,6 +6,9 @@ const Variables = css`
     --font-main: 'Comfortaa', -apple-system, BlinkMacSystemFont, 'Segoe UI',
       Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
       sans-serif;
+    --font-secondary: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+      sans-serif;
 
     // Font size
     --fz-xxs: 10px;
@@ -25,6 +28,7 @@ const Variables = css`
     --brownDark: #4b1c14;
     --brownLight: #f5b575;
     --grayLight: #d9d9d9;
+    --grayMedium: #c5c5c5;
 
     // Other
     --max-width: 1500px;
