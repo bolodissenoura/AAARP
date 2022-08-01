@@ -9,6 +9,9 @@ const Variables = css`
     --font-secondary: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI',
       Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
       sans-serif;
+    --font-third: 'Bebas Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+      sans-serif;
 
     // Font size
     --fz-xxs: 10px;
