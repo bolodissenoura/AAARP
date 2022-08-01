@@ -45,7 +45,7 @@ export function Home() {
             </S.ColText>
             <S.Col>
               <S.UsImg
-                src='../../../../public/assets/img/us.png'
+                src='https://i.im.ge/2022/08/01/FPbJWm.273918019-640089133892350-1361259389972939677-n-2.png'
                 alt='Fotografia com um grupo de pessoas de nossa organização'
               />
             </S.Col>
@@ -57,7 +57,7 @@ export function Home() {
           <C.Title text='APADRINHE UM CÃOZINHO' />
           <C.SubTitle text='O apadrinhamento pet é uma bela opção para quem ainda não pode ter um pet em casa ou não consegue aumentar a família no momento, mas morre de vontade de ajudar ONGs que atuam na área de proteção animal. ' />
           <S.ToAdopteImg
-            src='../../../../public/assets/img/dogo1.png'
+            src='https://i.im.ge/2022/08/01/FPbvjf.dogzin-1.png'
             alt='Fotografia com um grupo de pessoas de nossa organização'
           />
           <C.Button dark text='Clique aqui e tenha um novo afilhado' />
