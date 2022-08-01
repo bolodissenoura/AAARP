@@ -60,7 +60,7 @@ export function Home() {
             src='../../../../public/assets/img/dogo1.png'
             alt='Fotografia com um grupo de pessoas de nossa organização'
           />
-          <C.Button text='Clique aqui e tenha um novo afilhado' />
+          <C.Button dark text='Clique aqui e tenha um novo afilhado' />
         </S.ToAdopteContainer>
       </S.ThirdContainer>
 
