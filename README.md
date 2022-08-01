@@ -10,10 +10,9 @@ Basta criar um Fork direto do repositorio (https://github.com/bolodissenoura/AAA
 
 ## Quem Somos ?
 
-![Logo](/public/assets/img/Logo.png)
+![Logo](/public/assets/img/logo.png)
 
 https://www.instagram.com/amigosdosanimaisribeiraopreto/
-
 
 ## Quem ja contribuiu ?
 
