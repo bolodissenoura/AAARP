@@ -148,8 +148,7 @@ export const ThirdContainer = styled.div`
 export const FourthContainer = styled.div`
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(${img2});
+  background-image: url(${img2});
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;

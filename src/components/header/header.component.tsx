@@ -1,9 +1,6 @@
 import React from 'react';
 import * as S from './header.styles';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-
 export function Header() {
   const [navBg, setNavBg] = React.useState(false);
 

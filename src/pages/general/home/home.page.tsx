@@ -97,12 +97,7 @@ export function Home() {
         </S.ToAdopteContainer>
       </S.ThirdContainer>
       <S.FourthContainer>
-        <S.Divider />
-        <S.TitleCTA>
-          Com apenas R$1,00 você ajuda centenas de peludinhos
-        </S.TitleCTA>
-
-        <C.Button text='Quero Doar' />
+        <C.Carousel />
       </S.FourthContainer>
 
       <h1>Home</h1>
