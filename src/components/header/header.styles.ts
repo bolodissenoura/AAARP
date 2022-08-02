@@ -14,10 +14,13 @@ export const HeaderContent = styled.header<HeaderContentProps>`
   top: 0; /* Stick it to the top */
   max-height: 70px;
   width: 100vw;
-  display: grid;
-  grid-template-areas: 'logo nav';
   color: ${props => (props.scroll ? 'var(--brownDark)' : 'white')};
   z-index: 99;
+  display: flex;
+  img {
+    width: 50px;
+    border-radius: 16px;
+  }
 `;
 
 export const LogoContent = styled.div`

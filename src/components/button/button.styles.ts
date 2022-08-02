@@ -7,6 +7,7 @@ export const Content = styled.button<{ dark?: boolean }>`
   color: ${props => (props.dark ? 'var(--black)' : 'var(--grayLight)')};
   border: solid ${props => (props.dark ? 'var(--black)' : 'var(--grayLight)')};
   transition: all 0.5s ease;
+  border-radius: 16px;
 
   :hover {
     background-color: ${props =>

@@ -72,7 +72,7 @@ export const AboutUsFirstContainer = styled.div`
   margin: 0 auto;
 `;
 
-export const AboutUsSecondContainer = styled.div`
+export const AboutUsSection = styled.div`
   padding-top: 60px;
   padding: 20px;
   text-align: center;

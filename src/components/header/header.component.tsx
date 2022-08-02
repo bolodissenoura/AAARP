@@ -1,6 +1,9 @@
 import React from 'react';
 import * as S from './header.styles';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
 export function Header() {
   const [navBg, setNavBg] = React.useState(false);
 
@@ -17,7 +20,7 @@ export function Header() {
 
   return (
     <S.HeaderContent scroll={navBg}>
-      <S.LogoContent></S.LogoContent>
+      <img src='https://i.im.ge/2022/08/02/FybXQy.logo.png' alt='' />
     </S.HeaderContent>
   );
 }
