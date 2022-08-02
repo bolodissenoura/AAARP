@@ -1,1 +1,1 @@
-export * from './hearder.component';
+export * from './header.component';

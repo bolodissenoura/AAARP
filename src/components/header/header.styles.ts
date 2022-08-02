@@ -6,7 +6,7 @@ interface HeaderContentProps {
 
 export const HeaderContent = styled.header<HeaderContentProps>`
   background-color: ${props =>
-    props.scroll ? 'var(--grayLight)' : 'transparent'};
+    props.scroll ? 'var(--brownLight)' : 'transparent'};
   box-shadow: ${props =>
     props.scroll ? '0 4px 8px 0 rgba(0, 0, 0, 0.2)' : 'none'};
   transition: background-color 0.5s ease;
