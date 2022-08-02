@@ -1,12 +1,16 @@
 import styled from 'styled-components';
 import img from '/assets/img/bkg-1.png';
+import imgMobile from '/assets/img/bkg-mobile.png';
 import img2 from '/assets/img/bkg-2.png';
 import { deviceMinWidth } from '../../../styles';
 
 export const Container = styled.div`
   height: 100vh;
   width: 100vw;
-  background-image: url(${img});
+  background-image: url(${imgMobile});
+  @media ${deviceMinWidth.tabletL} {
+    background-image: url(${img});
+  }
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
