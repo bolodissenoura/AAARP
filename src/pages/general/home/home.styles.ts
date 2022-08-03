@@ -121,6 +121,7 @@ export const ToPatreonContainer = styled.div`
 `;
 
 export const ToAdopteContainer = styled.div`
+  padding-top: 50px;
   text-align: center;
   max-width: 700px;
   margin: 0 auto;
