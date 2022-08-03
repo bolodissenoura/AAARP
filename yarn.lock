@@ -668,6 +668,11 @@ react-dom@^17.0.0:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
+react-ig-feed@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/react-ig-feed/-/react-ig-feed-1.7.0.tgz#55844aad8c86bc34bfd2589fecdd2101e99f24eb"
+  integrity sha512-eRnpdPaHfBihIEzJaQfXyOYTK9Mi7+QuEqjXmHeTwiSy0nI91t9gneioKPBWrcSn3zoW7ZGWXii2S3c7bQYlGw==
+
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"

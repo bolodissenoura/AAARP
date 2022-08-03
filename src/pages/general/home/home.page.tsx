@@ -124,6 +124,7 @@ export function Home() {
           <FontAwesomeIcon icon={faArrowDown} color='gray' />
         </S.ToAdopteContainer>
         <C.Carousel />
+        <C.InstagramFeed />
       </S.FourthContainer>
       <C.Footer />
     </>
