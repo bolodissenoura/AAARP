@@ -2,13 +2,14 @@ import styled from 'styled-components';
 import { deviceMinWidth } from '../../styles';
 
 export const Content = styled.button<{ dark?: boolean }>`
-  background-color: transparent;
+  background-color: ${props =>
+    props.dark ? 'var(--black)' : 'var(--grayLight)'};
   cursor: pointer;
-  color: ${props => (props.dark ? 'var(--black)' : 'var(--grayLight)')};
+  color: ${props => (props.dark ? 'var(--grayLight)' : 'var(--black)')};
   border: solid ${props => (props.dark ? 'var(--black)' : 'var(--grayLight)')};
   transition: all 0.5s ease;
   border-radius: 16px;
-
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   :hover {
     background-color: ${props =>
       props.dark ? 'var(--black)' : 'var(--grayLight)'};
