@@ -25,6 +25,7 @@ export const HeaderContent = styled.header<HeaderContentProps>`
 
 export const LogoContent = styled.div`
   text-align: center;
+  margin: 0 auto;
   padding: 10px;
 `;
 

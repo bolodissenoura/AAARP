@@ -17,7 +17,9 @@ export function Header() {
 
   return (
     <S.HeaderContent scroll={navBg}>
-      <img src='https://i.im.ge/2022/08/02/FybXQy.logo.png' alt='' />
+      <S.LogoContent>
+        <img src='https://i.im.ge/2022/08/02/FybXQy.logo.png' alt='' />
+      </S.LogoContent>
     </S.HeaderContent>
   );
 }
