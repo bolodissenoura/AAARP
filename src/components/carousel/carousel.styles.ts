@@ -1,11 +1,15 @@
+import { deviceMinWidth } from '../../styles/devices';
 import styled from 'styled-components';
 
 export const Container = styled.div`
   padding-top: 20vh;
   height: 100vh;
   .swiper {
-    width: 70%;
-    height: 500px;
+    width: 90%;
+    @media ${deviceMinWidth.laptopS} {
+      width: 70%;
+    }
+    height: 600px;
   }
 
   .swiper-slide {

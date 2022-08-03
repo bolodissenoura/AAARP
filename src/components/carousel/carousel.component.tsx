@@ -40,6 +40,9 @@ export function Carousel() {
                 <S.CardBody>
                   <S.Name>{item.text}</S.Name>
                   <Button text='ADOTAR' dark />
+                  <br />
+                  <br />
+                  <Button text='APADRINHAR' />
                 </S.CardBody>
               </S.Card>
             </SwiperSlide>

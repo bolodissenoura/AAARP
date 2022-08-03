@@ -125,6 +125,7 @@ export function Home() {
         </S.ToAdopteContainer>
         <C.Carousel />
       </S.FourthContainer>
+      <C.Footer />
     </>
   );
 }
