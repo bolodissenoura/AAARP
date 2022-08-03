@@ -3,6 +3,8 @@ import * as C from '../../../components';
 import * as S from './home.styles';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 export function Home() {
   React.useEffect(() => {
@@ -97,11 +99,12 @@ export function Home() {
         </S.ToPatreonContainer>
       </S.ThirdContainer>
       <S.FourthContainer>
-        <C.Carousel />
         <S.ToAdopteContainer data-aos='fade-in' data-aos-easing='ease-in-out'>
           <C.Title text='NÃO COMPRE, ADOTE' />
           <C.SubTitle text='O apadrinhamento pet é uma bela opção para quem ainda não pode ter um pet em casa ou não consegue aumentar a família no momento, mas morre de vontade de ajudar ONGs que atuam na área de proteção animal. ' />
+          <FontAwesomeIcon icon={faArrowDown} color='gray' />
         </S.ToAdopteContainer>
+        <C.Carousel />
       </S.FourthContainer>
     </>
   );
