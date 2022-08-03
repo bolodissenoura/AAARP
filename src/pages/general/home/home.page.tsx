@@ -5,6 +5,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import {
+  faFacebook,
+  faInstagram,
+  faWhatsapp,
+} from '@fortawesome/free-brands-svg-icons';
 
 export function Home() {
   React.useEffect(() => {
@@ -39,6 +44,20 @@ export function Home() {
           <S.SubTitleCTA>
             Amigos dos Animais <br /> de Ribeirão Preto
           </S.SubTitleCTA>
+          <S.SocialMedias>
+            <FontAwesomeIcon
+              icon={faInstagram}
+              className='iconSocial instagram'
+            />
+            <FontAwesomeIcon
+              icon={faFacebook}
+              className='iconSocial facebook'
+            />
+            <FontAwesomeIcon
+              icon={faWhatsapp}
+              className='iconSocial whatsapp'
+            />
+          </S.SocialMedias>
 
           <C.Button dark text='QUERO DOAR AGORA' />
         </S.ContentCTA>

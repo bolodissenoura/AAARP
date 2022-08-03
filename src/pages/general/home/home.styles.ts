@@ -38,6 +38,32 @@ export const TitleCTA = styled.div`
   }
 `;
 
+export const SocialMedias = styled.div`
+  color: var(--black);
+  opacity: 0.8;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 50px;
+  .iconSocial {
+    padding: 10px;
+  }
+  .instagram {
+    :hover {
+      color: #800e4e;
+    }
+  }
+  .facebook {
+    :hover {
+      color: #0e2780;
+    }
+  }
+  .whatsapp {
+    :hover {
+      color: #0e8010;
+    }
+  }
+`;
+
 export const SubTitleCTA = styled.p`
   color: var(--black);
   font-family: var(--font-third);
