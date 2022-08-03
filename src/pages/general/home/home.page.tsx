@@ -84,7 +84,7 @@ export function Home() {
         </S.AboutUsContainer>
       </S.SecondContainer>
       <S.ThirdContainer>
-        <S.ToAdopteContainer data-aos='fade-in' data-aos-easing='ease-in-out'>
+        <S.ToPatreonContainer data-aos='fade-in' data-aos-easing='ease-in-out'>
           <C.Title text='APADRINHE UM CÃOZINHO' />
           <C.SubTitle text='O apadrinhamento pet é uma bela opção para quem ainda não pode ter um pet em casa ou não consegue aumentar a família no momento, mas morre de vontade de ajudar ONGs que atuam na área de proteção animal. ' />
           <S.ToAdopteImg
@@ -94,13 +94,15 @@ export function Home() {
             alt='Fotografia com um grupo de pessoas de nossa organização'
           />
           <C.Button dark text='Escolha seu afilhado' />
-        </S.ToAdopteContainer>
+        </S.ToPatreonContainer>
       </S.ThirdContainer>
       <S.FourthContainer>
         <C.Carousel />
+        <S.ToAdopteContainer data-aos='fade-in' data-aos-easing='ease-in-out'>
+          <C.Title text='NÃO COMPRE, ADOTE' />
+          <C.SubTitle text='O apadrinhamento pet é uma bela opção para quem ainda não pode ter um pet em casa ou não consegue aumentar a família no momento, mas morre de vontade de ajudar ONGs que atuam na área de proteção animal. ' />
+        </S.ToAdopteContainer>
       </S.FourthContainer>
-
-      <h1>Home</h1>
     </>
   );
 }

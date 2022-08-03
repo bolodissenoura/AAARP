@@ -2,6 +2,9 @@ import React from 'react';
 import * as S from './carousel.styles';
 import { Virtual, Navigation, Pagination, FreeMode, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Button } from '../index';
+
+import { contents } from './content';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -13,11 +16,15 @@ export function Carousel() {
     <>
       <S.Container>
         <Swiper
-          slidesPerView={3}
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            1200: { slidesPerView: 2 },
+            1440: { slidesPerView: 3 },
+          }}
           spaceBetween={30}
           freeMode={true}
           autoplay={{
-            delay: 900,
+            delay: 4000,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -26,30 +33,17 @@ export function Carousel() {
           modules={[FreeMode, Pagination, Autoplay]}
           className='mySwiper'
         >
-          <SwiperSlide>
-            <S.Card>
-              <img src='https://i.im.ge/2022/08/03/FC32AT.dog1.png' alt='' />
-              <S.CardBody>
-                <S.Name>Billy</S.Name>
-              </S.CardBody>
-            </S.Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            <S.Card>
-              <img src='https://i.im.ge/2022/08/03/FC32AT.dog1.png' alt='' />
-              <S.CardBody>
-                <S.Name>Billy</S.Name>
-              </S.CardBody>
-            </S.Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            <S.Card>
-              <img src='https://i.im.ge/2022/08/03/FC32AT.dog1.png' alt='' />
-              <S.CardBody>
-                <S.Name>Billy</S.Name>
-              </S.CardBody>
-            </S.Card>
-          </SwiperSlide>
+          {contents.map(item => (
+            <SwiperSlide key={item.id}>
+              <S.Card>
+                <img src={item.image} alt='' />
+                <S.CardBody>
+                  <S.Name>{item.text}</S.Name>
+                  <Button text='ADOTAR' dark />
+                </S.CardBody>
+              </S.Card>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </S.Container>
     </>

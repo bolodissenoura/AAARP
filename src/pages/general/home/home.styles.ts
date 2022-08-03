@@ -112,11 +112,17 @@ export const UsImg = styled.img`
   }
 `;
 
-export const ToAdopteContainer = styled.div`
+export const ToPatreonContainer = styled.div`
   text-align: center;
   max-width: 700px;
   padding: 20px;
   padding-top: 80px;
+  margin: 0 auto;
+`;
+
+export const ToAdopteContainer = styled.div`
+  text-align: center;
+  max-width: 700px;
   margin: 0 auto;
 `;
 
@@ -146,8 +152,7 @@ export const ThirdContainer = styled.div`
 `;
 
 export const FourthContainer = styled.div`
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-image: url(${img2});
   /* Position and center the image to scale nicely on all screens */
   background-position: center;

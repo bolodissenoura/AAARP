@@ -4,14 +4,14 @@ export const Container = styled.div`
   padding-top: 20vh;
   height: 100vh;
   .swiper {
-    width: 50%;
+    width: 70%;
     height: 500px;
   }
 
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background-color: white;
+    background-color: var(--grayMedium);
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -25,14 +25,15 @@ export const Container = styled.div`
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
 `;
 
 export const Card = styled.div`
   padding: 10px;
   img {
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 300px;
   }
 `;
 
