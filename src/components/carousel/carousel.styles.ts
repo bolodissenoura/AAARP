@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   padding-top: 20vh;
+  margin-bottom: 100px;
+
   height: 100vh;
   .swiper {
     width: 90%;

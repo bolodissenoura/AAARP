@@ -104,6 +104,7 @@ export function Home() {
           </S.AboutUsSection>
         </S.AboutUsContainer>
       </S.SecondContainer>
+      <C.ParallaxSection image='https://i.postimg.cc/VLf3YNF9/rescue-dog-enjoying-being-pet-by-woman-at-shelter.jpg' />
       <S.ThirdContainer>
         <S.ToPatreonContainer data-aos='fade-in' data-aos-easing='ease-in-out'>
           <C.Title text='APADRINHE UM CÃOZINHO' />
@@ -124,6 +125,7 @@ export function Home() {
           <FontAwesomeIcon icon={faArrowDown} color='gray' />
         </S.ToAdopteContainer>
         <C.Carousel />
+        <C.ParallaxSection image='https://images.unsplash.com/photo-1557962677-ed384f42904d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80' />
         <C.InstagramFeed />
       </S.FourthContainer>
       <C.Footer />
