@@ -37,97 +37,118 @@ export function Home() {
   return (
     <>
       <C.Header />
-      <S.Container>
-        <S.Divider />
-        <S.ContentCTA>
-          <S.TitleCTA>SOMOS A.A.A.R.P</S.TitleCTA>
-          <S.SubTitleCTA>
-            Amigos dos Animais <br /> de Ribeirão Preto
-          </S.SubTitleCTA>
-          <S.SocialMedias>
-            <FontAwesomeIcon
-              icon={faInstagram}
-              className='iconSocial instagram'
-            />
-            <FontAwesomeIcon
-              icon={faFacebook}
-              className='iconSocial facebook'
-            />
-            <FontAwesomeIcon
-              icon={faWhatsapp}
-              className='iconSocial whatsapp'
-            />
-          </S.SocialMedias>
+      <S.ContentHome>
+        <S.Container>
+          <S.Divider />
+          <S.ContentCTA>
+            <S.TitleCTA>SOMOS A.A.A.R.P</S.TitleCTA>
+            <S.SubTitleCTA>
+              Amigos dos Animais <br /> de Ribeirão Preto
+            </S.SubTitleCTA>
+            <S.SocialMedias>
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className='iconSocial instagram'
+              />
+              <FontAwesomeIcon
+                icon={faFacebook}
+                className='iconSocial facebook'
+              />
+              <FontAwesomeIcon
+                icon={faWhatsapp}
+                className='iconSocial whatsapp'
+              />
+            </S.SocialMedias>
 
-          <C.Button dark text='QUERO DOAR AGORA' />
-        </S.ContentCTA>
-      </S.Container>
-      <S.SecondContainer>
-        <S.AboutUsContainer>
-          <S.AboutUsSection data-aos='fade-in' data-aos-easing='ease-in-out'>
-            <S.Col>
-              <S.UsImg
-                src='https://i.im.ge/2022/08/01/FPbJWm.273918019-640089133892350-1361259389972939677-n-2.png'
-                alt='Fotografia com um grupo de pessoas de nossa organização'
-              />
-            </S.Col>
-            <S.ColText>
-              <C.Title text='Sobre Nossa Associação' />
-              <C.SubTitle
-                text='Somos uma organização de ajuda a animais em situação de rua e
+            <C.Button dark text='QUERO DOAR AGORA' />
+          </S.ContentCTA>
+        </S.Container>
+        <S.SecondContainer>
+          <S.AboutUsContainer>
+            <S.AboutUsSection data-aos='fade-in' data-aos-easing='ease-in-out'>
+              <S.Col>
+                <S.UsImg
+                  src='https://i.im.ge/2022/08/01/FPbJWm.273918019-640089133892350-1361259389972939677-n-2.png'
+                  alt='Fotografia com um grupo de pessoas de nossa organização'
+                />
+              </S.Col>
+              <S.ColText>
+                <C.Title text='Sobre Nossa Associação' />
+                <C.SubTitle
+                  text='Somos uma organização de ajuda a animais em situação de rua e
             desabrigados, fundada em 2012, pelo nosso amigo e voluntário
             Virgílio Martins. Desde que começamos com este trabalho, nosso
             objetivo é ajudar o máximo possível de cães. Nós os resgatamos,
             vacinamos, vermigugamos, desparasitamos, damos uma estadia digna e
             tentamos dar uma família a todos.'
-              />
-            </S.ColText>
-          </S.AboutUsSection>
-          <S.AboutUsSection data-aos='fade-in' data-aos-easing='ease-in-out'>
-            <S.ColText>
-              <C.Title text='Sobre Nossa Associação' />
-              <C.SubTitle
-                text='Somos uma organização de ajuda a animais em situação de rua e
+                />
+              </S.ColText>
+            </S.AboutUsSection>
+            <S.AboutUsSection data-aos='fade-in' data-aos-easing='ease-in-out'>
+              <S.ColText>
+                <C.Title text='Sobre Nossa Associação' />
+                <C.SubTitle
+                  text='Somos uma organização de ajuda a animais em situação de rua e
             desabrigados, fundada em 2012, pelo nosso amigo e voluntário
             Virgílio Martins. Desde que começamos com este trabalho, nosso
             objetivo é ajudar o máximo possível de cães. Nós os resgatamos,
             vacinamos, vermigugamos, desparasitamos, damos uma estadia digna e
             tentamos dar uma família a todos.'
-              />
-            </S.ColText>
-            <S.Col>
-              <S.UsImg
-                src='https://i.im.ge/2022/08/01/FPbJWm.273918019-640089133892350-1361259389972939677-n-2.png'
-                alt='Fotografia com um grupo de pessoas de nossa organização'
-              />
-            </S.Col>
-          </S.AboutUsSection>
-        </S.AboutUsContainer>
-      </S.SecondContainer>
-      <C.ParallaxSection image='https://i.postimg.cc/VLf3YNF9/rescue-dog-enjoying-being-pet-by-woman-at-shelter.jpg' />
-      <S.ThirdContainer>
-        <S.ToPatreonContainer data-aos='fade-in' data-aos-easing='ease-in-out'>
-          <C.Title text='APADRINHE UM CÃOZINHO' />
-          <C.SubTitle text='O apadrinhamento pet é uma bela opção para quem ainda não pode ter um pet em casa ou não consegue aumentar a família no momento, mas morre de vontade de ajudar ONGs que atuam na área de proteção animal. ' />
-          <S.ToAdopteImg
+                />
+              </S.ColText>
+              <S.Col>
+                <S.UsImg
+                  src='https://i.im.ge/2022/08/01/FPbJWm.273918019-640089133892350-1361259389972939677-n-2.png'
+                  alt='Fotografia com um grupo de pessoas de nossa organização'
+                />
+              </S.Col>
+            </S.AboutUsSection>
+          </S.AboutUsContainer>
+        </S.SecondContainer>
+        <C.ParallaxSection image='https://i.postimg.cc/VLf3YNF9/rescue-dog-enjoying-being-pet-by-woman-at-shelter.jpg' />
+        <S.ThirdContainer>
+          <S.ToPatreonContainer
             data-aos='fade-in'
             data-aos-easing='ease-in-out'
-            src='https://i.im.ge/2022/08/01/FPbvjf.dogzin-1.png'
-            alt='Fotografia com um grupo de pessoas de nossa organização'
-          />
-          <C.Button dark text='Escolha seu afilhado' />
-        </S.ToPatreonContainer>
-      </S.ThirdContainer>
-      <S.FourthContainer>
-        <S.ToAdopteContainer data-aos='fade-in' data-aos-easing='ease-in-out'>
-          <C.Title text='NÃO COMPRE, ADOTE' />
-          <C.SubTitle text='O apadrinhamento pet é uma bela opção para quem ainda não pode ter um pet em casa ou não consegue aumentar a família no momento, mas morre de vontade de ajudar ONGs que atuam na área de proteção animal. ' />
-          <FontAwesomeIcon icon={faArrowDown} color='gray' />
-        </S.ToAdopteContainer>
-        <C.Carousel />
+          >
+            <C.Title text='APADRINHE UM CÃOZINHO' />
+            <C.SubTitle text='O apadrinhamento pet é uma bela opção para quem ainda não pode ter um pet em casa ou não consegue aumentar a família no momento, mas morre de vontade de ajudar ONGs que atuam na área de proteção animal. ' />
+            <S.ToAdopteImg
+              data-aos='fade-in'
+              data-aos-easing='ease-in-out'
+              src='https://i.im.ge/2022/08/01/FPbvjf.dogzin-1.png'
+              alt='Fotografia com um grupo de pessoas de nossa organização'
+            />
+            <C.Button dark text='Escolha seu afilhado' />
+          </S.ToPatreonContainer>
+        </S.ThirdContainer>
         <C.ParallaxSection image='https://images.unsplash.com/photo-1557962677-ed384f42904d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80' />
-        <C.InstagramFeed />
-      </S.FourthContainer>
+
+        <S.FourthContainer>
+          <S.ToAdopteContainer data-aos='fade-in' data-aos-easing='ease-in-out'>
+            <C.Title text='NÃO COMPRE, ADOTE' />
+            <C.SubTitle text='O apadrinhamento pet é uma bela opção para quem ainda não pode ter um pet em casa ou não consegue aumentar a família no momento, mas morre de vontade de ajudar ONGs que atuam na área de proteção animal. ' />
+            <FontAwesomeIcon icon={faArrowDown} color='gray' />
+          </S.ToAdopteContainer>
+          <C.Carousel />
+          <C.ParallaxSection image='https://images.unsplash.com/photo-1553884013-03f90870e856?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80'>
+            <S.ContentCTA>
+              <S.TitleCTA>
+                Você pode ajudar de várias formas <br /> além da doação em
+                dinheiro.
+              </S.TitleCTA>
+              <S.SubTitleCTA>
+                SALVE VIDAS. <br />
+                Junte-se
+              </S.SubTitleCTA>
+
+              <C.Button dark text='QUERO AJUDAR' />
+              <S.Divider />
+            </S.ContentCTA>
+          </C.ParallaxSection>
+          <C.InstagramFeed />
+        </S.FourthContainer>
+      </S.ContentHome>
       <C.Footer />
     </>
   );

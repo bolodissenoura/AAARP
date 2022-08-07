@@ -17,6 +17,10 @@ export const Container = styled.div`
   background-size: cover;
 `;
 
+export const ContentHome = styled.div`
+  overflow: hidden;
+`;
+
 export const Divider = styled.div`
   padding-top: 80px;
 `;
@@ -46,6 +50,9 @@ export const SocialMedias = styled.div`
   padding-bottom: 50px;
   .iconSocial {
     padding: 10px;
+    :hover {
+      cursor: pointer;
+    }
   }
   .instagram {
     :hover {
