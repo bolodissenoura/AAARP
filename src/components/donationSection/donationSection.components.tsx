@@ -15,9 +15,9 @@ export function DonationSection() {
           alt='imagem com chave pix'
         />
       </S.Center>
-      <S.Title>
+      <S.Chave>
         CHAVE PIX EMAIL: <br /> amigosdosanimaisrp@hotmail.com{' '}
-      </S.Title>
+      </S.Chave>
       <S.Center>
         <S.Button onClick={() => CopyCNPJ()}>COPIAR CHAVE</S.Button>
       </S.Center>

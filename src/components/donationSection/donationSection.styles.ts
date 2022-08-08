@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { deviceMinWidth } from '../../styles';
 
 export const Container = styled.div`
   height: auto;
@@ -10,6 +11,17 @@ export const Title = styled.h1`
   padding-top: 80px;
   text-align: center;
   font-size: 36px;
+
+  font-family: var(--font-secondary);
+`;
+
+export const Chave = styled.h1`
+  padding-top: 80px;
+  text-align: center;
+  font-size: 16px;
+  @media ${deviceMinWidth.tabletL} {
+    font-size: 36px;
+  }
   font-family: var(--font-secondary);
 `;
 
