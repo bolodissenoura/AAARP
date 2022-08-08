@@ -6,3 +6,4 @@ export * from './carousel';
 export * from './footer';
 export * from './instagramFeed';
 export * from './parallaxSection';
+export * from './donationSection';

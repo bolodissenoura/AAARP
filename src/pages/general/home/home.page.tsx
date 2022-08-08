@@ -46,21 +46,31 @@ export function Home() {
               Amigos dos Animais <br /> de Ribeirão Preto
             </S.SubTitleCTA>
             <S.SocialMedias>
-              <FontAwesomeIcon
-                icon={faInstagram}
-                className='iconSocial instagram'
-              />
-              <FontAwesomeIcon
-                icon={faFacebook}
-                className='iconSocial facebook'
-              />
-              <FontAwesomeIcon
-                icon={faWhatsapp}
-                className='iconSocial whatsapp'
-              />
+              <a href='https://www.instagram.com/amigosdosanimaisribeiraopreto/'>
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className='iconSocial instagram'
+                />
+              </a>
+              <a href='https://www.facebook.com/amigosdosanimaisribeiraopreto/'>
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  className='iconSocial facebook'
+                />
+              </a>
+              <a href='https://api.whatsapp.com/send?phone=5516981278303'>
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  className='iconSocial whatsapp'
+                />
+              </a>
             </S.SocialMedias>
-
-            <C.Button dark text='QUERO DOAR AGORA' />
+            <a
+              href='https://api.whatsapp.com/send?phone=5516981278303'
+              target='_blank'
+            >
+              <C.Button dark text='QUERO DOAR AGORA' />
+            </a>
           </S.ContentCTA>
         </S.Container>
         <S.SecondContainer>
@@ -112,7 +122,12 @@ export function Home() {
               src='https://i.im.ge/2022/08/01/FPbvjf.dogzin-1.png'
               alt='Fotografia com um grupo de pessoas de nossa organização'
             />
-            <C.Button dark text='Escolha seu afilhado' />
+            <a
+              href='https://api.whatsapp.com/send?phone=5516981278303'
+              target='_blank'
+            >
+              <C.Button dark text='Escolha seu afilhado' />
+            </a>
           </S.ToPatreonContainer>
         </S.ThirdContainer>
         <C.ParallaxSection image='https://images.unsplash.com/photo-1557962677-ed384f42904d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80' />
@@ -134,10 +149,15 @@ export function Home() {
                 SALVE VIDAS. <br />
                 Junte-se
               </S.SubTitleCTA>
-
-              <C.Button dark text='QUERO AJUDAR' />
+              <a
+                href='https://api.whatsapp.com/send?phone=5516981278303'
+                target='_blank'
+              >
+                <C.Button dark text='QUERO AJUDAR' />
+              </a>
               <S.Divider />
             </S.ContentCTA>
+            <C.DonationSection />
           </C.ParallaxSection>
           <C.InstagramFeed />
         </S.FourthContainer>
