@@ -79,27 +79,20 @@ export function Home() {
             desabrigados, fundada em 2012, pelo nosso amigo e voluntário
             Virgílio Martins. Desde que começamos com este trabalho, nosso
             objetivo é ajudar o máximo possível de cães. Nós os resgatamos,
-            vacinamos, vermigugamos, desparasitamos, damos uma estadia digna e
+            vacinamos, vermifugamos, desparasitamos, damos uma estadia digna e
             tentamos dar uma família a todos.'
                 />
               </S.ColText>
             </S.AboutUsSection>
             <S.AboutUsSection data-aos='fade-in' data-aos-easing='ease-in-out'>
               <S.ColText>
-                <C.Title text='Sobre Nossa Associação' />
-                <C.SubTitle
-                  text='Somos uma organização de ajuda a animais em situação de rua e
-            desabrigados, fundada em 2012, pelo nosso amigo e voluntário
-            Virgílio Martins. Desde que começamos com este trabalho, nosso
-            objetivo é ajudar o máximo possível de cães. Nós os resgatamos,
-            vacinamos, vermigugamos, desparasitamos, damos uma estadia digna e
-            tentamos dar uma família a todos.'
-                />
+                <C.Title text='Quando adotar' />
+                <C.SubTitle text='Queremos cada vez mais que nossos resgatados sejam adotados, mas adotar um animal é uma atitude que não deve ser impulsiva. E não deve ser vista como caridade. Pelo contrário, exige muita responsabilidade. Nós protetores fazemos o possível para dar atenção, amor e todos os cuidados necessários, mas com cada vez mais animais abandonados, o número de animais protegidos cresce e esses bichinhos acabam recebendo menos atenção e amor do que precisam e merecem. Além disso, muitas pessoas quando pedem nossa ajuda dizem que vão ajudar no custeio do animal mas acabam nem lembrando da sua existência. 😓' />
               </S.ColText>
               <S.Col>
                 <S.UsImg
-                  src='https://i.im.ge/2022/08/01/FPbJWm.273918019-640089133892350-1361259389972939677-n-2.png'
-                  alt='Fotografia com um grupo de pessoas de nossa organização'
+                  src='https://i.postimg.cc/ZRTNmHcL/adotar.jpg)](https://postimg.cc/R3DhQc23'
+                  alt='Banner escrito Importância de adotar'
                 />
               </S.Col>
             </S.AboutUsSection>
